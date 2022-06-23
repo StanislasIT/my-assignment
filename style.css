@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 17px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #9292ae;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 4px;
+    color: grey;
+}
+
+.container {
+    background-color: #f1f1fb;
+    height: 100vh;
+    padding: 15px;
+    position: relative;
+}
+.red-box {
+    background-color: #ea4c3c;
+    height: 97.5vh;
+    width: 23%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;   
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 1000px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    
+}
+
+/* Grid box one start */
+.grid-box-1 {
+    background-color: #f1f1fb;
+    padding: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.flex-items {
+    display: flex;
+    align-items: center;
+}
+
+.grid-box-1 img {
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+.user-details {
+    line-height: 1;
+    margin-left: 15px;
+}
+
+h2 {
+    font-size:25px;
+    color: #000;
+}
+
+.icon {
+    color: #000;
+    flex-direction: column;
+}
+
+.nav-container .nav-para {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.nav-container .log-out {
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 170px;
+}
+
+/* grid box 1 end */
+
+/* grid box 2 start */
+.grid-box-2 {
+    background-color: #fff;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 40px;
+}
+
+.main-heading {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.sub-heading {
+    font-size: 20px;
+}
+
+/* Table section */
+
+.table-box {
+    position: relative;
+}
+.table-holder {
+    width: 400px;
+    margin-top: 30px;
+    line-height: 3;
+}
+
+.red-box-small {
+    background-color: #ea4c3c;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.red-box-small .main-paragraph {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.red-box-small .u-heading {
+    color: #f1f1fb;
+}
+
+.red-box-small .sub-paragraph {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    font-size: 12px;
+    padding: 7px 15px;
+    border: 1px dotted #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
